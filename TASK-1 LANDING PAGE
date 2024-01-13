@@ -1,0 +1,151 @@
+HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d64034d705.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="glass-effect">
+        
+    <nav>
+        
+        <h1 class="logo">
+            <b></h1>PARADISE AWAITS</h1></b>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">CONTACT</a></li>
+
+
+            
+        </ul>
+
+    </nav>
+    <div class="info"> 
+        <h2>DO NOT WAIT BECAUSE THE ADVENTURE AWAITS</h2>
+        <h3><b><i>Pack your bags and departure into the unknown lands</b></i></i></h3>
+        <p><b>Let's go to ANDAMAN AND NICOBAR ISLANDS where it  is full of</b> <br><b> DEEP BLUE SEAS </b><br><b>TURQUOISE REEFS</b> <br><b>PALM TREES</b> </p>
+        <p>BLACK FRIDAY SALE <br> UPTO 30% OFF!!</p>
+        <button type="button">BOOK NOW</button>
+        
+    </div>
+    
+    <div class="singlecal icons ">
+        
+        <ul>
+            
+              <a href="https://facebook.com"></a>
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://instagram.com"></a>
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://twitter.com"></a>
+                <i class="fa-brands fa-x-twitter"></i>
+            
+            </ul>
+    </div>
+</div>
+</body>
+</html>
+
+CSS CODE
+body{
+    background-image: url(anni.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass-effect{ 
+    background-image: url(anni.jpg);
+    background-position: center;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+font-size: x-large;
+
+
+
+    width: 1200px;
+    height: 620px;
+    background: radial-gradient(rgba(0,0,0,0),rgba(255,255,255,0.6));
+    border-radius: 20px;
+    backdrop-filter: blur(0.5px);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0,6);
+}
+.logo{
+    color:black;
+    font-size: 35px;
+    float: left;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+align-items: center;
+padding: 10px 5%;
+font-size: larger;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black ;
+    transition: 0.2s;
+}
+nav ul li a:hover{
+    color:azure;
+}
+.info{
+    margin-left: 30px;
+    padding: 18px;
+    color:black;
+    
+}
+button{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 6px 16px;
+    font-size: 18px;
+    color: azure;
+    background-color: black;
+    border: 0;
+    outline: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: azure;
+    color: black;
+}
+.icons{
+    color:blue;
+    font-size: 2rem;
+    text-align: center ;
+    margin: 0 40px;
+    transition: 0.2s;
+}
+.singlecal{
+    max-width: 750px;
+    margin: 0 auto;
+}
+.icons:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+}
